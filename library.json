@@ -1,0 +1,17 @@
+{
+  "name": "B64",
+  "keywords": "base64, b64",
+  "description": "A Base64 library",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/isdn/b64.git"
+  },
+  "authors":
+  {
+    "name": "Denis Bykov"
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
