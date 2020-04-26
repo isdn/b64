@@ -9,9 +9,11 @@
   },
   "authors":
   {
-    "name": "Denis Bykov"
+    "name": "Denis Bykov",
+    "maintainer": true
   },
   "version": "1.0.0",
+  "license": "MIT",
   "frameworks": "arduino",
   "platforms": "*"
 }
