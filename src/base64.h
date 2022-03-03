@@ -3,6 +3,10 @@
 
 #include <string>
 
+#ifndef __BASE64_DICTIONARY__
+#define __BASE64_DICTIONARY__ "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+#endif
+
 class Base64 {
 public:
     static std::string encode(const std::string &s);
