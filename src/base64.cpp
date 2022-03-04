@@ -1,9 +1,6 @@
 #include "base64.h"
 
-const std::string Base64::b64_chars =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    "abcdefghijklmnopqrstuvwxyz"
-    "0123456789+/";
+const std::string Base64::b64_chars = __BASE64_DICTIONARY__;
 
 inline bool Base64::is_base64(unsigned char c) {
     return (isalnum(c) || (c == '+') || (c == '/'));
